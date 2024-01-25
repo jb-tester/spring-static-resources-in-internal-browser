@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <link href="/styles/mystyle.css" rel="stylesheet"/>
+</head>
+<body>
+   <p th:text="${hello_attr1}">??</p>
+   <a href="/bye">link to next view - doesn't work in preview, ok</a>
+   <br/>
+   <a href="/temp.html">link to static resource - should work in preview!</a>
+   <br/>
+   <a href="dummy.html">link that is not resolved in runtime, but works in preview</a>
+</body>
+</html>
